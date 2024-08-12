@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="image/paypal.png" type="image/x-icon">
+    <title>PayPal Payment Portal</title>
+    <link rel="stylesheet" href="css/payment.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0S20W5KL3B"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-0S20W5KL3B');
+</script>
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to Malcolm Lismore PayPal Payment Portal</h1>
+            <p>Experience the pinnacle of elegance and sophistication</p>
+        </header>
+        <main>
+            <div class="product">
+                <h2>Exclusive Premium Images</h2>
+                <p class="description">Indulge in the finest quality with our exclusive premium images, crafted to perfection.</p>
+                <div class="price">Basic $99.00<br>Standard $199.00<br>Extended $299.00<br>Ultimate $399.00<br></div>
+                <center>
+                <div id="paypal-container-3VVLFLWW9N3NE"></div></center>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; All Rights Reserved. Design by.</p>
+            <a href="https://github.com/JMSPunsara">PunsaraJMS</a>
+        </footer>
+    </div>
+    <script src="https://www.paypal.com/sdk/js?client-id=BAAECbOPvZ0phMIAwtukaGfHwOI-RLkJS1v1gae0QC90LSayOW6KUPEDogiQastu2Ft8BEGG5iqiTCH4eo&components=hosted-buttons&disable-funding=venmo&currency=USD"></script>
+    <script src="js/payment.js"></script>
+</body>
+</html>

@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <link rel="shortcut icon" href="image/Camera.png" type="image/x-icon">
+
+  <title> Malcolm Lismore </title>
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+    <!-- Bootstrap JS and dependencies (optional) -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,600,700&display=swap" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/gallery.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0S20W5KL3B"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-0S20W5KL3B');
+</script>
+<style>
+    .button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vh; /* This centers the button vertically */
+}
+
+/* Floating Animation */
+.creative-button-floating {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 50px;
+  background: linear-gradient(45deg, #ff5e14, #f64444);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  animation: floating 3s ease-in-out infinite;
+}
+
+@keyframes floating {
+  0%, 100% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-10px);
+  }
+}
+</style>
+</head>
+
+<body class="sub_page">
+  <div class="hero_area">
+    <!-- header section strats -->
+    <div class="hero_bg_box">
+      <img src="image/Home Back-Ground.jpg" alt="">
+    </div>
+
+    <header class="header_section">
+      <div class="header_top">
+        <div class="container-fluid">
+          <div class="contact_link-container">
+            <a href="" class="contact_link1">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <span>
+                57 Wapping Wall, Wapping, London
+              </span>
+            </a>
+            <a href="" class="contact_link2">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <span>
+                Call : +44 020 7481 1095
+              </span>
+            </a>
+            <a href="" class="contact_link3">
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+              <span>
+                malcolmlismore@gmail.com
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="header_bottom">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg custom_nav-container">
+            <a class="navbar-brand" href="index.html">
+              
+              <span>
+                <img src="image/Malcolm_Lismore_Logo.png" width="50" height="50" class="logo"> Malcolm Lismore
+              </span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class=""></span>
+            </button>
+
+            <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
+              <ul class="navbar-nav  ">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html"> About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="pricing.html"> Pricing </a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="gallery.html"> Gallery </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="enquiry.html">Enquiry</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- end header section -->
+  </div>
+
+  <div class="button-container">
+    <a href="Admin Panel/landscapeview.php" class="creative-button-floating">Landscape Photography</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="Admin Panel/coastalview.php" class="creative-button-floating">Coastal Photography</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="Admin Panel/wildlifeview.php" class="creative-button-floating">Wildlife Photography</a>&nbsp;&nbsp;&nbsp;
+  </div>
+
+  <!-- Main heading populast photography image auto sliding -->
+  <h1> This Week Popular</h1>
+  <section class="slider_container">
+    <section class="slider">
+      <div class="slide one">
+        <img src="image/landscape1.jpg" alt="" />
+        <span class="caption">Rank 01 </span>
+      </div>
+      <div class="slide two">
+        <img src="image/landscape2.jpg" alt="" />
+        <span class="caption"> Rank 02 </span>
+      </div>
+      <div class="slide three">
+        <img src="image/Wildlife/Wildlife7.jpg" alt="" />
+        <span class="caption"> Rank 03 </span>
+      </div>
+      <div class="slide four">
+        <img src="image/Wildlife/Wildlife1.jpg" alt="" />
+        <span class="caption"> Rank 04 </span>
+      </div>
+      <div class="slide four">
+        <img src="image/wedding/wedding7.jpg" alt="" />
+        <span class="caption"> Rank 05 </span>
+      </div>
+    </section>
+  </section>
+
+  <!-- end Main heading populast photography image auto sliding -->
+
+  <!-- landscape gallery section -->
+  <section id="gallery">
+    <h1>Gallery Section</h1><br>
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="image/landscape/landscape1.jpg" alt="Image 1">
+            <div class="overlay">
+                <div class="text">Image 1 Landscape</div>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="image/landscape/landscape2.jpg" alt="Image 2">
+            <div class="overlay">
+                <div class="text">Image 2 Landscape</div>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="image/landscape/landscape3.jpg" alt="Image 3">
+            <div class="overlay">
+                <div class="text">Image 3 Landscape</div>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="image/landscape/landscape4.jpg" alt="Image 4">
+            <div class="overlay">
+                <div class="text">Image 4 Landscape</div>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="image/landscape/landscape5.jpg" alt="Image 5">
+            <div class="overlay">
+                <div class="text">Image 5 Landscape</div>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="image/landscape/landscape6.jpg" alt="Image 6">
+            <div class="overlay">
+                <div class="text">Image 6 Landscape</div>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="image/landscape/landscape7.jpg" alt="Image 7">
+            <div class="overlay">
+                <div class="text">Image 7 Landscape</div>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="image/landscape/landscape8.jpg" alt="Image 8">
+            <div class="overlay">
+                <div class="text">Image 8 Landscape</div>
+            </div>
+        </div>
+        <div class="gallery-item">
+          <img src="image/landscape/landscape9.jpg" alt="Image 9">
+          <div class="overlay">
+              <div class="text">Image 9 Landscape</div>
+          </div>
+      </div>
+      <div class="gallery-item">
+        <img src="image/landscape/landscape10.jpg" alt="Image 10">
+        <div class="overlay">
+            <div class="text">Image 10 Landscape</div>
+        </div>
+    </div>
+    <div class="gallery-item">
+      <img src="image/landscape/landscape11.jpg" alt="Image 11">
+      <div class="overlay">
+          <div class="text">Image 11 Landscape</div>
+      </div>
+  </div>
+  <div class="gallery-item">
+    <img src="image/landscape/landscape12.jpg" alt="Image 12">
+    <div class="overlay">
+        <div class="text">Image 12 Landscape</div>
+    </div>
+</div>
+<div class="gallery">
+  <div class="gallery-item">
+      <img src="image/Wildlife/Wildlife1.jpg" alt="Image 1">
+      <div class="overlay">
+          <div class="text">Image 1 Wildlife</div>
+      </div>
+  </div>
+  <div class="gallery-item">
+      <img src="image/Wildlife/Wildlife2.jpg" alt="Image 2">
+      <div class="overlay">
+          <div class="text">Image 2 Wildlife</div>
+      </div>
+  </div>
+  <div class="gallery-item">
+      <img src="image/Wildlife/Wildlife3.jpg" alt="Image 3">
+      <div class="overlay">
+          <div class="text">Image 3 Wildlife</div>
+      </div>
+  </div>
+  <div class="gallery-item">
+      <img src="image/Wildlife/Wildlife4.jpg" alt="Image 4">
+      <div class="overlay">
+          <div class="text">Image 4 Wildlife</div>
+      </div>
+  </div>
+  <div class="gallery-item">
+      <img src="image/Wildlife/Wildlife5.jpg" alt="Image 5">
+      <div class="overlay">
+          <div class="text">Image 5 Wildlife</div>
+      </div>
+  </div>
+  <div class="gallery-item">
+      <img src="image/Wildlife/Wildlife6.jpg" alt="Image 6">
+      <div class="overlay">
+          <div class="text">Image 6 Wildlife</div>
+      </div>
+  </div>
+  <div class="gallery-item">
+      <img src="image/Wildlife/Wildlife7.jpg" alt="Image 7">
+      <div class="overlay">
+          <div class="text">Image 7 Wildlife</div>
+      </div>
+  </div>
+  <div class="gallery-item">
+      <img src="image/Wildlife/Wildlife8.jpg" alt="Image 8">
+      <div class="overlay">
+          <div class="text">Image 8 Wildlife</div>
+      </div>
+  </div>
+  <div class="gallery-item">
+    <img src="image/Wildlife/Wildlife9.jpg" alt="Image 9">
+    <div class="overlay">
+        <div class="text">Image 9 Wildlife</div>
+    </div>
+</div>
+<div class="gallery-item">
+  <img src="image/Wildlife/Wildlife10.jpg" alt="Image 10">
+  <div class="overlay">
+      <div class="text">Image 10 Wildlife</div>
+  </div>
+</div>
+<div class="gallery-item">
+<img src="image/Wildlife/Wildlife11.jpg" alt="Image 11">
+<div class="overlay">
+    <div class="text">Image 11 Wildlife</div>
+</div>
+</div>
+<div class="gallery-item">
+<img src="image/Wildlife/Wildlife12.jpg" alt="Image 12">
+<div class="overlay">
+  <div class="text">Image 12 Wildlife</div>
+</div>
+</div>
+<div class="gallery">
+  <div class="gallery-item">
+      <img src="image/wedding/wedding1.jpg" alt="Image 1">
+      <div class="overlay">
+          <div class="text">Image 1 Wedding</div>
+      </div>
+  </div>
+  <div class="gallery-item">
+      <img src="image/wedding/wedding2.jpg" alt="Image 2">
+      <div class="overlay">
+          <div class="text">Image 2 Wedding</div>
+      </div>
+  </div>
+  <div class="gallery-item">
+      <img src="image/wedding/wedding3.jpg" alt="Image 3">
+      <div class="overlay">
+          <div class="text">Image 3 Wedding</div>
+      </div>
+  </div>
+  <div class="gallery-item">
+      <img src="image/wedding/wedding4.jpg" alt="Image 4">
+      <div class="overlay">
+          <div class="text">Image 4 Wedding</div>
+      </div>
+  </div>
+  <div class="gallery-item">
+      <img src="image/wedding/wedding5.jpg" alt="Image 5">
+      <div class="overlay">
+          <div class="text">Image 5 Wedding</div>
+      </div>
+  </div>
+  <div class="gallery-item">
+      <img src="image/wedding/wedding6.jpg" alt="Image 6">
+      <div class="overlay">
+          <div class="text">Image 6 Wedding</div>
+      </div>
+  </div>
+  <div class="gallery-item">
+      <img src="image/wedding/wedding7.jpg" alt="Image 7">
+      <div class="overlay">
+          <div class="text">Image 7 Wedding</div>
+      </div>
+  </div>
+  <div class="gallery-item">
+      <img src="image/wedding/wedding8.jpg" alt="Image 8">
+      <div class="overlay">
+          <div class="text">Image 8 Wedding</div>
+      </div>
+  </div>
+  <div class="gallery-item">
+    <img src="image/wedding/wedding9.jpg" alt="Image 9">
+    <div class="overlay">
+        <div class="text">Image 9 Wedding</div>
+    </div>
+</div>
+<div class="gallery-item">
+  <img src="image/wedding/wedding10.jpg" alt="Image 10">
+  <div class="overlay">
+      <div class="text">Image 10 Wedding</div>
+  </div>
+</div>
+<div class="gallery-item">
+<img src="image/wedding/wedding11.jpg" alt="Image 11">
+<div class="overlay">
+    <div class="text">Image 11 Wedding</div>
+</div>
+</div>
+<div class="gallery-item">
+<img src="image/wedding/wedding12.jpg" alt="Image 12">
+<div class="overlay">
+  <div class="text">Image 12 Wedding</div>
+</div>
+</div>
+    <!-- Wildlife gallery section -->
+
+
+    <!-- Add more images as needed -->
+</section>
+  <!-- start gallery section -->
+
+  <!-- end gallery section -->
+
+
+  <!-- info section -->
+  <section class="info_section ">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="info_logo">
+            <a class="navbar-brand" href="index.html">
+              <span>
+                Malcolm Lismore
+              </span>
+            </a>
+            <p>
+              Malcolm Lismore, a freelance photographer with 20 years of experience in the photography industry. Over the past two decades, I've honed my skills across various genres, including event photography, commercial shoots, and wedding photography.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="info_links">
+            <h5>
+              Useful Link
+            </h5>
+            <ul>
+              <li>
+                <a href="https://www.smugmug.com/">
+                  Portfolio Showcase
+                </a>
+              </li>
+              <li>
+                <a href="https://www.honeybook.com/">
+                  Client Booking and Management
+                </a>
+              </li>
+              <li>
+                <a href="https://www.blurb.com/">
+                  Online Printing and Album Creation
+                </a>
+              </li>
+              <li>
+                <a href="https://www.shutterstock.com/">
+                  Stock Photography
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="info_info">
+            <h5>
+              Contact Us
+            </h5>
+          </div>
+          <div class="info_contact">
+            <a href="" class="">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <span>
+                57 Wapping Wall, Wapping, London
+              </span>
+            </a>
+            <a href="" class="">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <span>
+                Call : +44 020 7481 1095
+              </span>
+            </a>
+            <a href="" class="">
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+              <span>
+                malcolmlismore@gmail.com
+              </span>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="info_form ">
+            <h5>
+              Newsletter
+            </h5>
+            <form action="subscribe.php" method="POST">
+              <input type="email" class="form-field" id="mail" name="email" placeholder="Enter your email" required>
+              <button type="submit">Subscribe</button>
+            </form>
+            <div class="social_box">
+              <a href="https://web.facebook.com/">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a href="https://x.com/login=?mx=2">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a href="https://youtube.com">
+                <i class="fa fa-youtube" aria-hidden="true"></i>
+              </a>
+              <a href="https://www.instagram.com/accounts/login/">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end info_section -->
+
+
+  <!-- footer section -->
+  <footer class="container-fluid footer_section">
+    <p>
+      &copy; <span id="currentYear"></span> All Rights Reserved. Design by
+      <a href="https://github.com/JMSPunsara">PunsaraJMS</a>
+    </p>
+  </footer>
+  <!-- footer section -->
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="js/gallery.js"></script>
+</body>
+
+</html>

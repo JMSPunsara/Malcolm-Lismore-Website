@@ -1,0 +1,126 @@
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    animation: slideIn 1s ease-in-out;
+}
+
+@keyframes slideIn {
+    0% { transform: translateY(-100%); }
+    100% { transform: translateY(0); }
+}
+
+header {
+    text-align: center;
+    padding: 40px 0;
+    background: linear-gradient(to right, #478CCF, #4535C1);
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    font-family: 'Playfair Display', serif;
+}
+
+header p {
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.product {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.product h2 {
+    font-size: 2.5em;
+    margin: 10px 0;
+    font-family: 'Playfair Display', serif;
+    color: #444;
+}
+
+.product .description {
+    font-size: 1.2em;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.product .price {
+    font-size: 2em;
+    color: #478CCF;
+    margin: 20px 0;
+    font-weight: 600;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to right, #478CCF, #4535C1);
+    color: #fff;
+    border-radius: 0 0 10px 10px;
+    margin-top: 20px;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
+
+select {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    padding: 5px;
+    margin: 20px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+label {
+    font-size: 1.2em;
+    color: #444;
+    margin-right: 10px;
+}
+
+.price {
+    font-family: 'Montserrat', sans-serif;
+    background: #fff;
+    border: 3px solid #4535C1;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 1300px;
+    animation: zoomIn 0.5s ease-in-out;
+}
+
+.price br {
+    display: block;
+    margin: 10px 0;
+}
+
+.price span {
+    display: block;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+
+@keyframes zoomIn {
+    0% { transform: scale(0.5); opacity: 0; }
+    100% { transform: scale(1); opacity: 1; }
+}
